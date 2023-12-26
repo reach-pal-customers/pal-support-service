@@ -2,10 +2,165 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Apple Fruit Shop</title>
+    <style>
+        /* Add your CSS code here */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f00;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #f00;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #d00;
+        }
+
+        ul {
+            margin: 0 20px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        footer {
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>bcsjbsb</h1>
+    <header>
+        <div class="logo">
+            <a href="#home-sec"><h2>Apple Fruit shop</h2></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about-sec">ABOUT</a></li>
+                <li><a href="#varieties-sec">VARIETIES</a></li>
+                <li><a href="#service-sec">OUR SERVICE</a></li>
+                <li><a href="#benefits-sec">BENEFITS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home-sec">
+        <div class="container">
+            <h1>Welcome to Apple Fruit Shop</h1>
+            <p>We offer the best quality and variety of apples at affordable prices.</p>
+       
+        </div>
+    </section>
+    <section id="about-sec">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a family-owned business that has been growing and selling apples for over 20 years. We are passionate about providing our customers with fresh, delicious, and nutritious apples. We grow our apples organically, without using any harmful chemicals or pesticides. We also use sustainable farming practices to protect the environment and conserve natural resources.</p>
+        </div>
+    </section>
+    <section id="varieties-sec">
+        <div class="container">
+            <h2>Our Varieties</h2>
+            <p>We have a wide range of apple varieties to suit your taste and preference. Whether you are looking for sweet, tart, crisp, juicy, or crunchy apples, we have them all. Here are some of our popular varieties:</p>
+            <ul>
+                <li>Red Delicious: The most popular and widely grown apple in the world. It has a deep red color and a sweet flavor.</li>
+                <li>Granny Smith: A green apple with a tart and tangy taste. It is ideal for baking, cooking, and making cider.</li>
+                <li>Honeycrisp: A crisp and juicy apple with a balanced sweetness and acidity. It is perfect for eating fresh or making salads.</li>
+                <li>Fuji: A yellowish-red apple with a honey-like flavor and a firm texture. It is great for snacking and storing.</li>
+                <li>Gala: A red-orange apple with a mild and sweet taste. It is good for eating raw or making juice.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="service-sec">
+        <div class="container">
+            <h2>Our Service</h2>
+            <p>We offer a convenient and reliable service for our customers. You can order your apples online or by phone, and we will deliver them to your doorstep within 24 hours. You can also visit our shop and pick your own apples from our orchard. We guarantee that you will receive fresh and quality apples every time.</p>
+        </div>
+    </section>
+    <section id="benefits-sec">
+        <div class="container">
+            <h2>The Benefits of Apples</h2>
+            <p>Apples are not only tasty, but also healthy. They are rich in fiber, vitamin C, antioxidants, and phytochemicals. They can help you:</p>
+            <ul>
+                <li>Boost your immune system and prevent infections.</li>
+                <li>Lower your cholesterol and blood pressure levels.</li>
+                <li>Improve your digestion and prevent constipation.</li>
+                <li>Protect your teeth and gums from decay and plaque.</li>
+                <li>Enhance your brain function and memory.</li>
+            </ul>
+            <p>So what are you waiting for? Order your apples today and enjoy the benefits of nature's wonder fruit.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>© 2023 Apple Fruit Shop. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
